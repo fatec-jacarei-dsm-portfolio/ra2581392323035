@@ -1,0 +1,62 @@
+#sobre {
+  background: var(--navy2);
+  padding: 5.5rem 5%;
+}
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  max-width: 900px;
+}
+
+.sobre-bio {
+  color: #b8c7d8;
+  line-height: 1.85;
+  font-size: .95rem;
+}
+
+.sobre-bio p + p { margin-top: 1rem; }
+
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.skill-name {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.skill-bar {
+  height: 3px;
+  background: rgba(138,154,176,.2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-lt));
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .9s cubic-bezier(.22,1,.36,1);
+}
+
+.skill-fill.visible { transform: scaleX(1); }
+
+@media (max-width: 700px) {
+  .sobre-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+}

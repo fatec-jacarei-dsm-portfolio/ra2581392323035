@@ -1,0 +1,66 @@
+#projetos {
+  background: var(--navy);
+  padding: 5.5rem 5%;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--slate);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  transition: border-color .2s, transform .2s;
+}
+
+.card:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+}
+
+.card-tag {
+  font-size: .65rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: .9rem;
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: .6rem;
+}
+
+.card-desc {
+  font-size: .87rem;
+  color: var(--muted);
+  line-height: 1.7;
+  flex: 1;
+  margin-bottom: 1.4rem;
+}
+
+.card-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+.tech-chip {
+  font-size: .7rem;
+  font-weight: 500;
+  padding: .2rem .65rem;
+  border-radius: 3px;
+  background: rgba(201,168,76,.12);
+  color: var(--gold-lt);
+  border: 1px solid rgba(201,168,76,.25);
+}

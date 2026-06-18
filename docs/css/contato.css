@@ -1,0 +1,24 @@
+#contato {
+  background: var(--navy2);
+  text-align: center;
+  padding: 5rem 5% 4rem;
+}
+
+#contato .section-title { margin-bottom: .5rem; }
+#contato .section-sub { margin: 0 auto 2.5rem; }
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  padding: 1.6rem;
+  font-size: .75rem;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  background: var(--navy);
+}
