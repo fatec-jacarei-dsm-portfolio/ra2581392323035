@@ -4,8 +4,8 @@ Repositório institucional com portfólio e projetos desenvolvidos no curso de D
 
 ## 🌐 Portfólio online
 
-Publicado via GitHub Pages em:
-**https://lucas-assis1.github.io/portifolio/**
+Link da paresentação do portfolio no youtube:
+**https://www.youtube.com/watch?v=GrZBG3kZauc**
 
 ## 📁 Estrutura do repositório
 
